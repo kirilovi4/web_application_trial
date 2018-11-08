@@ -1,0 +1,102 @@
+.Dad {
+	position: relative;
+
+}
+
+#box {
+	position: absolute; 
+	background-color: white; 
+	width: 30%; 
+	margin-top: 1%; 
+	opacity: 0.92;
+	border-radius: 10px; 
+	text-align: center; font-family: CORBEL; text-transform: uppercase;
+}
+
+.Tasks {
+	margin: 0;
+	
+}
+
+.InProgress {
+	margin: 0 35% 0 35%;
+}
+
+.Complete {
+	margin: 0 0 0 70%;
+}
+
+.head {
+	position: relative; 
+	float: center;
+	width: 100%; 
+	background-color: black; 
+	height: 100px; 
+	text-align: center; font-family: CORBEL; text-transform: uppercase;
+	margin: 0 auto;
+}
+
+h1{
+	opacity: 1; 
+	margin-top: 0;
+	color: white;
+
+}
+
+h6{
+	font-size: 22px;
+	margin-top: 2%;
+	margin-bottom: 5px;
+}
+
+text{
+	float: left; 
+	cursor: pointer;
+	padding: 7px;
+	border-radius: 5px;
+	margin: 0 0 2% 4%;
+
+}
+
+text:hover{
+	background-color: black;
+	color: white;
+	transition: 0.7s;
+}
+textarea{
+
+	margin-top: 0;
+	width: 90%;
+	height: 50px;
+	resize: none;
+	border-radius: 5px;	
+}
+
+.newTask{
+	width: 90%;
+	text-align: left;
+	margin: 5% 5% 2% 5%;
+	word-wrap: break-word;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 5px;
+	text-transform: none;
+
+}
+.newTask:hover{
+	background-color: gainsboro;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.newEdit{
+
+	margin: 0 5% 0 5%;
+	text-align: right;
+	text-transform: lowercase;
+	font-size: 10pt;
+}
+.newEdit:hover {
+	color: green;
+	cursor: pointer;
+}
